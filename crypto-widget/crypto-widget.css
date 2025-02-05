@@ -1,0 +1,67 @@
+.crypto-form .eachinput {
+  margin: 20px 0;
+}
+.crypto-form .eachinput label {
+  width: 200px;
+}
+.crypto-form .eachinput select{}
+.crypto-form h2 {
+  border-bottom: 1px solid #cfcfcf;
+  padding-bottom: 10px;
+}
+.select2-container {
+  width: 80% !important;
+}
+input.save-crypto {
+  margin-top: 15px;
+  width: 100% !important;
+  padding: 8px;
+  background: #2271b1;
+  border: unset;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.dt-length select {
+  padding: 5px 15px !important;
+}
+.twocol{
+  display: flex;
+  align-items: center;
+}
+.twocol .eachinput{
+  flex-basis: 50%;
+}
+.twocol .eachinput label {
+  display: block;
+  margin-bottom: 3px;
+}
+.crypto-form .eachinput input {
+  width: 100%;
+}
+.crypto-form .eachinput .select2-container{
+  width: 100% !important;
+}
+.crypto-form .eachinput {
+  margin: 10px 0;
+  padding: 0 10px;
+}
+.crypto-form .eachinput .cryptowidth, .crypto-form .eachinput .cryptoheight {
+  width: calc(100% - 20px);
+}
+.crypto-form .eachinput input[type='color']{
+  cursor: pointer;
+}
+#responsemessage {
+  text-align: center;
+  margin-top: 10px;
+  color: red;
+}
+.cryptotable span.dashicons {
+  cursor: pointer;
+  margin: 3px;
+  transition: all 0.2s;
+}
+.cryptotable span.dashicons:hover, .cryptotable span.dashicons:focus{
+  scale: 1.3;
+}
