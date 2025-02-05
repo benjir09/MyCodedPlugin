@@ -1,0 +1,310 @@
+.woox-archive-wrap {
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.archive-card {
+  border: 1px solid #e0e6f7;
+  padding: 10px;
+  border-radius: 10px;
+  flex-basis: calc(33.33% - 15px);
+}
+.imagewrap {
+  position: relative;
+}
+.title-wrap,
+.metawrap,
+.tagwrap,
+.woox-archive .excerpt {
+  padding: 10px;
+}
+.imagewrap img {
+  border-radius: 10px;
+}
+.imagewrap .role {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: #811518;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #fff;
+  padding: 5px 10px;
+}
+.title-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.title-wrap h3 {
+  margin-bottom: 0;
+  line-height: 28px !important;
+}
+.title-wrap h3 a {
+  font-size: 20px;
+  line-height: 26px;
+  color: #171141;
+}
+.title-wrap .price {
+  color: #811518;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+}
+.title-wrap .price span {
+  color: #171141;
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.metawrap {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding: 5px 10px;
+}
+.metawrap .meta {
+  display: flex;
+  align-items: center;
+  color: #a0abb8;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  column-gap: 4px;
+}
+.tagwrap {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.tagwrap a {
+  background-color: #eff3fc;
+  padding: 6px 8px;
+  border-radius: 4px;
+  color: #4f5e64 !important;
+  font-size: 12px !important;
+  line-height: 12px !important;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.tagwrap a:hover,
+.tagwrap a:focus {
+  background-color: #dde3ef;
+  scale: 1.1;
+  font-weight: 600;
+}
+.woox-archive .excerpt {
+  color: #4f5e64;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.archive-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  position: relative;
+}
+a.archive-morelink {
+  background-color: #811518;
+  text-decoration: unset;
+  color: #ffffff !important;
+  font-size: 14px !important;
+  line-height: 14px !important;
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+a.archive-morelink:hover,
+a.archive-morelink:focus {
+  scale: 1.05;
+}
+a.archive-morelink img {
+  margin-left: 10px;
+  width: 20px;
+}
+.woox-ajaxmore,
+.country-ajaxmore {
+  background-color: #ffffff;
+  background-image: url("images/spinner.gif");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  display: none;
+}
+.woox-archive {
+  margin: 30px 0 50px;
+  width: 100%;
+}
+.archive-card .imagewrap img {
+  width: 100%;
+}
+span.location-comma {
+  margin-left: -3px;
+}
+span.location-comma:last-child {
+  display: none;
+}
+.woox-archive-wrap.projects .title-wrap,
+.woox-archive-wrap.study-aborad .title-wrap,
+.woox-archive-wrap.international-student-exchange .title-wrap,
+.woox-archive-wrap.volunteering .title-wrap {
+  display: block;
+}
+.woox-archive-wrap.projects .title-wrap .location,
+.woox-archive-wrap.study-aborad .title-wrap .location,
+.woox-archive-wrap.international-student-exchange .title-wrap .location,
+.woox-archive-wrap.volunteering .title-wrap .location {
+  font-size: 12px;
+  line-height: 24px;
+  color: #a0abb8;
+  font-weight: 400;
+}
+.view-project {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+}
+.view-project a {
+  background-color: #811518;
+  text-decoration: unset;
+  color: #ffffff !important;
+  font-size: 15px !important;
+  line-height: 23px !important;
+  font-weight: 500;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+.linkntag {
+  display: flex;
+  align-items: center;
+}
+img.cardlocationicon {
+  margin-right: 3px;
+}
+.linkntag {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+a.studyabroadlink {
+  color: #811518 !important;
+  font-size: 16px !important;
+  font-weight: 600;
+  margin-right: 10px;
+  transition: all 0.2s;
+}
+a.studyabroadlink:hover,
+a.studyabroadlink:focus {
+  scale: 1.05;
+}
+a.studyabroadlink img {
+  max-width: 25px;
+}
+.exchange-extra {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  column-gap: 15px;
+}
+.exchange-box {
+  background: #eff3fc;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #4f5e64;
+  text-align: center;
+}
+.exchange-extra {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 20px;
+  align-items: stretch;
+  padding: 20px;
+}
+.exchange-box {
+  background: #eff3fc;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #4f5e64;
+  text-align: center;
+  flex-basis: 33%;
+  min-height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+.exchange-box div {
+  padding: 2px 0;
+}
+.international-student-exchange .view-project a {
+  background-color: unset;
+  text-decoration: unset;
+  color: #171141 !important;
+  font-size: 18px !important;
+  line-height: 20px !important;
+  font-weight: 600;
+  padding: 0;
+  border-radius: unset;
+  transition: all 0.2s;
+}
+.international-student-exchange .view-project a:hover,
+.international-student-exchange .view-project a:focus {
+  scale: 1.1;
+}
+.destination-archive-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.destination-archive a.location-card {
+  flex-basis: calc(33.33% - 25px);
+  position: relative;
+}
+.destination-archive a.location-card img {
+  width: 100%;
+}
+.destination-archive a.location-card h4 img {
+  width: 20px;
+  margin-right: 5px;
+}
+.destination-archive a.location-card h4 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  z-index: 9;
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 500;
+}
+.title-wrap.title-giveaway {
+  display: block;
+}
+.title-giveaway .remaining-day {
+  color: #a0abb8;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+.title-giveaway .remaining-day img {
+  margin-right: 5px;
+}
